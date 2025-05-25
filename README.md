@@ -14,8 +14,8 @@ The [Miranda Turbulent Flow Dataset](https://gitlab.com/tensors/tensor_data_mira
 ## Files
 * `density.mat` - Input MATLAB file, uploaded with Git LFS.
 * `Miranda.cpp` - C++ implementation for computing the Tensor-Train compressions. Requires [Xerus](https://libxerus.org/building_xerus/), [Matio](https://github.com/tbeu/matio/tree/master) (available on Ubuntu via `sudo apt install libmatio-dev`) and at least 7+ GB of RAM.
-* `xerusTensors/` - Contains the uncompressed Xerus tensor and Tensor-Train tensor.
-* `compressionResults/` - Stores the MAT files of the compressed tensors (not in TT format), generated for different thresholds `1e-x`.
+* `xerusTensors/` - Contains the uncompressed Xerus tensor and Tensor-Train tensor for faster execution of `Miranda.cpp`. Both are uploaded with Git LFS.
+* `compressionResults/` - Stores the MAT files of the compressed tensors (not in TT format), generated for different thresholds `1e-x`. Also uses Git LFS.
 * `visualization/` - Includes the Python script for 3D visualization and the resulting PNG image.
 
 ## Result
